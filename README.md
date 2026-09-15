@@ -1,35 +1,69 @@
 # E-Commerce Product and Category Management System
 
-## Description
+## 1. Project Description
 
-This is a simple SQL project for managing products and categories in an e-commerce system.
+This is a simple E-Commerce Database Management System developed using **MySQL and SQL**.
+The project is used to store and manage product and category details.
 
-## Technologies
+## 2. Technologies Used
 
 * MySQL
 * SQL
 
-## Tables
+## 3. Database
 
-1. **Category** – Stores category details.
-2. **Product** – Stores product details.
+**Database Name:** `ecommerceDB`
 
-## Operations
+The database contains two main tables:
 
-* Create tables
-* Insert product data
-* Read data
-* Update data
-* Delete data
-* Category-wise product analysis
+* **Category**
+* **Product**
 
-## Categories
+## 4. Category Table
+
+The Category table stores category information such as:
+
+* Category ID
+* Category Name
+* Description
+
+## 5. Product Table
+
+The Product table stores product information such as:
+
+* Product ID
+* Product Name
+* Category ID
+* Price
+* Stock Quantity
+
+## 6. Main Operations
+
+The project performs basic **CRUD operations**:
+
+* **Create** – Add new product details
+* **Read** – View product and category details
+* **Update** – Change price or stock
+* **Delete** – Remove a product
+
+## 7. Product Analysis
+
+The project also includes category-wise analysis to:
+
+* Display products under each category
+* Count products in each category
+* Find the highest-priced product
+* Find categories with more than 5 products
+* Calculate average product price
+
+## 8. Sample Categories
 
 * Electronics
 * Clothing
 * Books
 * Home Appliances
 
-## Conclusion
+## 9. Conclusion
 
-This project helps to manage products and categories using basic SQL queries.
+This project helps to understand the basic concepts of **SQL database management, table relationships, CRUD operations, and data analysis** using an E-Commerce example.
+
